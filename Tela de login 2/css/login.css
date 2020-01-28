@@ -16,13 +16,13 @@ body
    margin-top: 10%;
 }
 
-#form input
+.input
 {
-  font-family: "Roboto", sans-serif;
+  font-family: arial;
   outline: 0;
   background: #161616;
   width: 80%;
-  border: solid rgb(201, 201, 201);
+  border: solid rgb(255, 255, 255);
   border-top: 0px;
   border-right: 0px;
   border-left: 0px;
@@ -42,14 +42,28 @@ body
   border-radius: 20px;
   margin-left: 10%;
   border: 0;
-  font: normal 12pt Sans-serif;
+  font: normal 12pt arial;
   color: azure;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+#form label
+{
+  margin-left: 10%;
+  color: rgb(255, 255, 255); 
+  font-family: Arial;
+}
+
+#form button:hover
+{
+  background-color: rgb(48, 188, 206);
 }
 
 #form p
 {
   color: rgb(0, 174, 255);
-  font-family: sans-serif;
+  font-family: Arial;
   font-size: 11pt;
   margin-left: 11%;
 }
